@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 .presentacionContainer {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 50px;
+    height: 100vh;
 }
 
 .presentacionText {
@@ -24,11 +27,50 @@
     box-shadow: 0px 0px 900px 1px rgb(45 0 255 / 27%);
 }
 
-.presentacionName {
+.presentacionPhotoName{
+    font-size: 20px;
     font-weight: bold;
     color: rgb(0, 213, 255);
 }
 
+.presentacionPhotoContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.presentacionName {
+    font-family: "Press Start 2P", serif;
+    font-weight: bold;
+    color: rgb(0, 213, 255);
+}
+
+.presentacionInfo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.presentacionTextContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.presentacionLocation {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 20px;
+}
+
+.presentacionLocationIcon{
+    color: rgb(255, 0, 0);
+    font-size: 25px;
+}
 .presentacionBtns {
     display: flex;
     justify-content: end;
@@ -60,7 +102,7 @@
     transform: scale(1.1);
 }
 
-.presentacionBtns .cv {
+.presentacionBtns .cv{
     display: flex;
     color: #fff;
     border: #0a66c2 solid 2px;

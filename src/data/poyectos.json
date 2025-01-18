@@ -1,0 +1,35 @@
+[
+    {
+      "titulo": "DESSMART Multiservicios",
+      "imagen": "/img/dessmart.jpg",
+      "tecnologias": ["HTML", "Sass", "CSS", "Bootstrap"],
+      "descripcion": "Este fue mi primer proyecto personal. es una landing page de una empresa que ofrece multiservicios.",
+      "repo": "https://github.com/Carlossantana331/PreEntrega3-Santana-web.git",
+      "deploy": "https://dessmart.vercel.app/"
+    },
+    {
+      "titulo": "E-commerce DESSMART",
+      "imagen": "/img/ecommerce.jpg",
+      "tecnologias": ["React", "Firebase", "js", "CSS", "vite"],
+      "descripcion": "E-commerce de productos con carrito de compras para DESSMART (empresa emergente de multiservicios).",
+      "repo": "https://github.com/Carlossantana331/Preentrega3-Santana.git",
+      "deploy": "https://ecommerce-santana.vercel.app/"
+    },
+    {
+      "titulo": "Galería de Fotos",
+      "imagen": "/img/galeria.jpg",
+      "tecnologias": ["React", "Google Drive API", "CSS", "Vite", "js"],
+      "descripcion": "Aplicación para subir y visualizar fotos almacenadas en Google Drive. en este proyecto se le dio uso mayormente a la API de Google Drive ademas de Auth0.",
+      "repo": "https://github.com/Carlossantana331/galeria.git",
+      "deploy": "https://galeria-danaycarlos.vercel.app/"
+    },
+    {
+      "titulo": "To-Do List",
+      "imagen": "/img/ToDoList.jpg",
+      "tecnologias": ["React", "js", "CSS"],
+      "descripcion": "Lista de tareas con funcionalidad de agregar, eliminar y completar tareas. este proyecto me ayudo a comprender el uso de useState y useEffect.",
+      "repo": "https://github.com/Carlossantana331/ToDoList.git",
+      "deploy": "https://to-do-list-carlossantana331.vercel.app/"
+    }
+  ]
+  

@@ -1,0 +1,197 @@
+.proyecto-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.proyecto-card-container {
+  margin: 0 auto;
+  max-width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.proyecto-name {
+  font-size: 22px;
+  margin: 40px 0 10px 0;
+}
+.proyecto-image {
+  height: 180px;
+}
+
+.proyecto-image img {
+  height: 180px;
+  object-fit: cover;
+  box-shadow: 0px 20px 10px 2px rgb(0, 0, 0);
+}
+
+.proyecto-card {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border: 2px solid rgba(0, 213, 255, 0.322);
+  background-color: #242424;
+  border-radius: 10px;
+}
+
+.proyecto-card-hoover {
+  height: 180px;
+  width: 380px;
+}
+
+.proyecto-card-hoover p {
+  opacity: 0;
+  transition: opacity 0.2s ease-out;
+  margin: 0;
+  padding: 10px;
+  height: 180px;
+  transform: translateY(-180px);
+  border-bottom-right-radius: 10px;
+}
+
+.proyecto-description {
+  position: relative;
+  height: 180px;
+}
+
+.proyecto-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+.proyecto-icon {
+  transition: height 0.3s ease-out, width 0.3s ease-out,
+    border-bottom-right-radius 0.3s ease-out;
+  background-color: #0a66c2;
+  transform: translateY(-180px);
+  height: 40px;
+  width: 40px;
+  border-bottom-right-radius: 90%;
+  position: absolute;
+}
+
+.proyecto-card:hover .proyecto-icon {
+  width: 380px;
+  height: 181px;
+  border-bottom-right-radius: 0%;
+  transition: border-bottom-right-radius 0.7s ease-in, height 0.5s ease,
+    width 0.5s ease;
+}
+
+.proyecto-card:hover .proyecto-description p {
+  opacity: 1;
+  transition: opacity 0.3s ease 0.3s;
+}
+
+/*---------------------------Logos de tecnologias--------------------------*/
+
+.proyecto-tecnologias-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+  width: 100%;
+  margin: 30px 0;
+}
+.proyecto-logo {
+  font-size: 30px;
+  background-color: #4d4f52;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: rgb(192, 192, 192);
+  color: #131313;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  width: 80px;
+  bottom: 120%;
+  left: 50%;
+  margin-left: -40px;
+}
+
+.tooltip .tooltipGoogleDriveAPI {
+  width: 140px;
+  margin-left: -70px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+.React {
+  color: rgb(88 196 220);
+}
+
+.HTML {
+  color: #e34f26;
+}
+
+.Sass {
+  color: #cf649a;
+}
+
+.CSS {
+  color: #146fb6;
+}
+
+.Bootstrap {
+  color: #8113f9;
+}
+
+.Vite {
+  color: #ffc41c;
+}
+
+.Firebase {
+  color: #ff9028;
+}
+
+.JS {
+  color: #f7e01d;
+}
+
+.GoogleDriveAPI {
+  color: #31a754;
+}
+
+
+/*---------------------------Links--------------------------*/
+.proyecto-links {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+

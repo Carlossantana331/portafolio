@@ -192,6 +192,17 @@
   align-items: center;
   gap: 10px;
   width: 100%;
+  margin-bottom: 30px;
+}
+
+.proyecto-link-card{
+  color: rgb(238, 237, 237);
+  font-size: 40px;
+}
+
+.proyecto-link-card p{
+  font-size: 16px;
+  margin-bottom: -10px;
 }
 
 

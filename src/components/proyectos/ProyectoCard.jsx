@@ -43,12 +43,12 @@ function ProyectoCard() {
                         </div>
 
                         <div className="proyecto-links">
-                            <a className="tooltip" href={proyecto.repo} target="_blank" rel="noopener noreferrer">
+                            <a className="tooltip proyecto-link-card" href={proyecto.repo} target="_blank" rel="noopener noreferrer">
                                 <FaGithubSquare />
                                 <p className="tooltiptext tooltipGoogleDriveAPI">visitar repositorio</p>
                             </a>
                             
-                            <a className="tooltip"href={proyecto.deploy} target="_blank" rel="noopener noreferrer">
+                            <a className="tooltip proyecto-link-card"href={proyecto.deploy} target="_blank" rel="noopener noreferrer">
                                 <TbWorldWww />
                                 <p className="tooltiptext tooltipGoogleDriveAPI">ver deploy</p>
                             </a>

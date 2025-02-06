@@ -1,6 +1,6 @@
 import React from "react";
 import proyectos from "../../data/poyectos.json";
-import "./ProyectoCard.css";
+import "./proyectoCard.css";
 import tecnologiasLogos from  "../../data/tecnologiasLogos.js";
 import { FaGithubSquare } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";

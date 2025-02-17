@@ -57,14 +57,23 @@
 .educacion-card{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.descargar{
+.educacion-card-botones{
+    display: flex;
+    gap: 5px;
+}
+.educacion-card-ver, .educacion-card-descargar{
     background-color: #0a66c2;
+    align-content: center;
     color: #fff;
-    padding: 10px 20px;
-    border: none;
+    padding: 0px 20px;
+    height: 30px;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
+}
+
+.educacion-card-descargar{
+    padding: 0px 5px;
 }

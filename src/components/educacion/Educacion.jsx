@@ -1,5 +1,6 @@
 import React from "react";
 import "./Educacion.css";
+import { IoMdDownload } from "react-icons/io";
 
 
 function Educacion() {
@@ -28,7 +29,15 @@ function Educacion() {
                 <h4>Desarrollo Web</h4>
                 <p>Coderhouse (2023)</p>
               </div>
-              <button className="descargar">descargar</button>
+
+              <div className="educacion-card-botones">
+                <a className="educacion-card-ver" href="https://drive.google.com/uc?export=view&id=10u71-Kf1z0xqhb_ZNoJEOEbfTEGTd_ze" target="_blank" rel="noopener noreferrer">
+                    Ver
+                </a>
+                <a className="educacion-card-descargar" href="https://drive.google.com/uc?export=download&id=10u71-Kf1z0xqhb_ZNoJEOEbfTEGTd_ze" target="_blank" rel="noopener noreferrer">
+                  <IoMdDownload />
+                </a>
+              </div>
             </div>
 
             <div className="educacion-card">
@@ -36,7 +45,16 @@ function Educacion() {
                 <h4>javascript</h4>
                 <p>Coderhouse (2024)</p>
               </div>
-              <button className="descargar">descargar</button>
+
+              <div className="educacion-card-botones">
+                <a className="educacion-card-ver" href="https://drive.google.com/uc?export=view&id=1eQE3WzsPV65lj0hUpS1kshg7fSEn2fEz" target="_blank" rel="noopener noreferrer">
+                    Ver
+                </a>
+                <a className="educacion-card-descargar" href="https://drive.google.com/uc?export=download&id=1eQE3WzsPV65lj0hUpS1kshg7fSEn2fEz" target="_blank" rel="noopener noreferrer">
+                  <IoMdDownload />
+                </a>
+              </div>
+
             </div>
 
             <div className="educacion-card">
@@ -44,7 +62,14 @@ function Educacion() {
                 <h4>React</h4>
                 <p>Coderhouse (2024)</p>
               </div>
-              <button className="descargar">descargar</button>
+              <div className="educacion-card-botones">
+                <a className="educacion-card-ver" href="https://drive.google.com/uc?export=view&id=1ApGYtqUaT0SZf9tAAudVnERiIHFPdrNH" target="_blank" rel="noopener noreferrer">
+                  Ver
+                </a>
+                <a className="educacion-card-descargar" href="https://drive.google.com/uc?export=download&id=1ApGYtqUaT0SZf9tAAudVnERiIHFPdrNH" target="_blank" rel="noopener noreferrer">
+                  <IoMdDownload />
+                </a>
+              </div>
             </div>
 
           </div>

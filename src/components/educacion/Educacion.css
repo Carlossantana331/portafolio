@@ -10,15 +10,61 @@
 
 .educacion-line{
     border: 1px solid rgba(0, 213, 255, 0.322);
-    margin: 0 auto;
-    width: 100%;
+    width: 1px;
 }
 .educacion-cards{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
     gap: 20px;
-    
-    margin: 0 auto;
     text-align: left;
     padding: 50px 50px 50px 50px;
+
+}
+
+.educacion-card-licenciatura{
+    width: 100%;
+}
+
+.educacion-card-certificacion{
+    width: 100%;
+}
+
+
+.educacion-cards h3{
+    position: relative;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.educacion-cards h3::after{
+    content: '';
+    position: absolute;
+    border: 1px solid rgba(0, 213, 255, 0.322);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.educacion-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.educacion-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.descargar{
+    background-color: #0a66c2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }

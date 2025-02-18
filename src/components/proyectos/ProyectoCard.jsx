@@ -8,7 +8,7 @@ import { TbWorldWww } from "react-icons/tb";
 
 function ProyectoCard() {
     return (
-        <div className="proyecto-container">
+        <section className="proyecto-container" id="proyectos">
             <h2 className="proyecto-title">Proyectos</h2>
 
             <div className="proyecto-card-container">
@@ -57,7 +57,7 @@ function ProyectoCard() {
                 ))}
 
             </div>
-        </div>
+        </section>
     );
 }
 

@@ -54,7 +54,7 @@ const Presentacion = () => {
   };
 
   return (
-    <div className="presentacionContainer">
+    <section className="presentacionContainer" id='inicio'>
       <div className="presentacionTextContainer">
         <p className="presentacionText">
           <span className="presentacionName">&lt;{text}</span> <br /><br />
@@ -90,7 +90,7 @@ const Presentacion = () => {
           <span>Jalisco, México</span>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

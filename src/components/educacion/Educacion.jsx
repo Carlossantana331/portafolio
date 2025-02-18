@@ -5,7 +5,7 @@ import { IoMdDownload } from "react-icons/io";
 
 function Educacion() {
   return (
-    <div className="educacion-container">
+    <section className="educacion-container" id="educacion">
       <h2>Educación y Certificaciones</h2>
       <div className="educacion-cards">
 
@@ -76,9 +76,8 @@ function Educacion() {
         
         </div>
 
-        <div className="educacion-card"></div>
       </div>
-    </div>
+    </section>
   );
 }
 

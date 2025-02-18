@@ -3,7 +3,7 @@ import "./Sobre_mi.css";
 
 function Sobre_mi() {
   return (
-    <div className="sobreMiContainer">
+    <section className="sobreMiContainer" id="sobremi">
       <h2 className="sobreMiTitle">Sobre mi</h2>
       <p className="sobreMiText">
         ¡Hola! Soy Carlos Santana, ingeniero en nanotecnología apasionado por el
@@ -22,7 +22,7 @@ function Sobre_mi() {
         Mi meta es convertirme en un profesional destacado en el mundo del
         desarrollo web.
       </p>
-    </div>
+    </section>
   );
 }
 

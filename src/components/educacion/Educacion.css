@@ -6,6 +6,7 @@
     border: 1px solid rgba(0, 213, 255, 0.322);
     border-radius: 10px;
     margin-top: 150px;
+    margin-bottom: 300px;
 }
 
 .educacion-line{
@@ -19,7 +20,7 @@
     gap: 20px;
     text-align: left;
     padding: 50px 50px 50px 50px;
-
+    color: rgb(255, 255, 255);
 }
 
 .educacion-card-licenciatura{
@@ -69,7 +70,7 @@
     align-content: center;
     color: #fff;
     padding: 0px 20px;
-    height: 30px;
+    height: 35px;
     border-radius: 5px;
     cursor: pointer;
 }

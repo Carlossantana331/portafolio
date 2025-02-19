@@ -41,7 +41,7 @@ a {
     background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,109,121,0.7987570028011204) 2%, rgba(9,9,121,0) 100%);
     border-bottom: 2px solid rgb(0, 213, 255);
     z-index: -1;
-    transform: scaley(0);
+    transform: scaleY(0);
     transform-origin: bottom;
     transition: transform 0.3s ease-in-out;
     border-top-left-radius: 5px;
@@ -53,7 +53,7 @@ a {
 .navbar ul li a:hover::after,
 .navbar ul li a.active::after {
     color: rgb(0, 213, 255);
-    transform: scaleX(1);
+    transform: scaleY(1);
   }
   
 
@@ -63,4 +63,14 @@ a {
 
 section {
     scroll-margin-top: 100px;
+  }
+
+  @media (max-width: 715px) {
+    .navbar-list{
+        font-size: 1.1rem;
+    }
+
+    .navbar-link{
+        padding: 10px 5px;
+    }
   }

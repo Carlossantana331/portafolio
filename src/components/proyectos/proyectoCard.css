@@ -71,11 +71,12 @@
   align-items: center;
   text-align: center;
   font-size: 18px;
+  color: rgb(255, 255, 255);
 }
 
 .proyecto-icon {
-  transition: height 0.3s ease-out, width 0.3s ease-out,
-    border-bottom-right-radius 0.3s ease-out;
+  transition: height 0.3s ease-out, width 0.3s ease-out;
+  border-bottom-right-radius: 0.3s ease-out;
   background-color: #0a66c2;
   transform: translateY(-180px);
   height: 40px;
@@ -109,8 +110,6 @@
 }
 .proyecto-logo {
   font-size: 30px;
-  background-color: #4d4f52;
-  border-radius: 10px;
   width: 40px;
   height: 40px;
   display: flex;
@@ -207,3 +206,16 @@
 }
 
 
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+    .proyecto-card-container{
+        max-width: 90vw;
+    }
+
+    .proyecto-container{
+      max-width: 90vw;
+      margin: 0 auto;
+      margin-top: 150px;
+    }
+}

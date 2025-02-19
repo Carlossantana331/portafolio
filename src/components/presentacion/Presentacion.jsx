@@ -76,7 +76,7 @@ const Presentacion = () => {
           </a>
           <div>
             <button onClick={copyToClipboard} className="email">
-            {copied ? <span style={{ color: "white", fontSize: "14px" }}>¡Copiado!</span> : <><MdOutlineMailOutline style={{ fontSize: "18px" }} /> <span style={{ fontSize: "14px" }}>{email}</span></>}
+            {copied ? <span style={{ color: "white", fontSize: "14px" }}>¡Copiado!</span> : <><MdOutlineMailOutline style={{ fontSize: "18px" }} /> <span className="emailText" style={{ fontSize: "14px" }}>{email}</span></>}
             </button>
           </div>
         </div>

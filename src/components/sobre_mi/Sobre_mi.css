@@ -20,3 +20,16 @@
     padding: 0 50px 50px 50px;
     color: rgb(255, 255, 255);
 }
+
+
+@media (max-width: 1024px) {
+    .sobreMiContainer{
+        max-width: 90vw;
+    }
+}
+
+@media (max-width: 715px) {
+    .sobreMiText{
+        padding: 0 30px 30px 30px;
+    }
+}

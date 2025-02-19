@@ -78,3 +78,19 @@
 .educacion-card-descargar{
     padding: 0px 5px;
 }
+
+
+@media (max-width: 1024px){
+    .educacion-container{
+        width: 90vw;
+    }
+}
+
+@media (max-width: 715px){
+    .educacion-cards{
+        flex-direction: column;
+    }
+    .educacion-line{
+        display: none;
+    }
+}

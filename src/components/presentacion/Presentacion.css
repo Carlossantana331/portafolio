@@ -147,3 +147,33 @@
     background-color: #0a66c2;
     transform: scale(1.03);
 }
+
+@media (max-width: 1024px){
+    .presentacionContainer{
+        flex-direction: column-reverse;
+        gap: 80px;
+        margin: 0 auto;
+        width: 90vw;
+    }
+    .presentacionText{
+        width: 80vw;
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    .presentacionPhoto{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 475px){
+    .emailText{
+        display: none;
+    }
+    .email{
+        width: 80px;
+    }
+    .presentacionBtns{
+        justify-content: center;
+    }
+}

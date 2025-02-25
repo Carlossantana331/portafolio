@@ -71,7 +71,7 @@ const Presentacion = () => {
           <a className="github" href="https://github.com/Carlossantana331/" target="_blank">
             <FaGithubSquare />
           </a>
-          <a className="cv" href="cv">
+          <a className="cv" href="https://drive.google.com/uc?export=download&id=1qnPIctr9en5nt0ctYRmG5MViK3MOdjso" target="_blank">
             <GrDocumentDownload className="cvIcon" />CV
           </a>
           <div>
